@@ -1,0 +1,27 @@
+<TextureAtlas name="Untitled-8" imagePath="texture.png">
+ <SubTexture name="asa9" x="186" y="31" width="21" height="28"/>
+ <SubTexture name="asa8" x="73" y="108" width="27" height="16"/>
+ <SubTexture name="asa7" x="0" y="111" width="27" height="13"/>
+ <SubTexture name="asa6" x="216" y="110" width="30" height="10"/>
+ <SubTexture name="asa5" x="230" y="85" width="20" height="17"/>
+ <SubTexture name="asa4" x="208" y="85" width="21" height="24"/>
+ <SubTexture name="asa3" x="185" y="60" width="22" height="26"/>
+ <SubTexture name="asa2" x="233" y="0" width="21" height="28"/>
+ <SubTexture name="asa1" x="210" y="0" width="22" height="30"/>
+ <SubTexture name="asa9_9" x="208" y="31" width="21" height="28"/>
+ <SubTexture name="asa8_8" x="73" y="91" width="27" height="15"/>
+ <SubTexture name="asa7_7" x="28" y="111" width="27" height="13"/>
+ <SubTexture name="asa6_6" x="185" y="110" width="30" height="10"/>
+ <SubTexture name="asa5_5" x="185" y="87" width="20" height="17"/>
+ <SubTexture name="asa4_4" x="208" y="60" width="21" height="24"/>
+ <SubTexture name="asa3_3" x="230" y="58" width="22" height="26"/>
+ <SubTexture name="sasa2_2" x="233" y="29" width="21" height="28"/>
+ <SubTexture name="asa1_1" x="187" y="0" width="22" height="30"/>
+ <SubTexture name="patas7" x="114" y="44" width="70" height="22"/>
+ <SubTexture name="patas5" x="114" y="67" width="70" height="22"/>
+ <SubTexture name="patas4" x="114" y="0" width="72" height="20"/>
+ <SubTexture name="patas3" x="0" y="91" width="72" height="19"/>
+ <SubTexture name="patas2" x="114" y="21" width="71" height="22"/>
+ <SubTexture name="patas1" x="114" y="90" width="70" height="23"/>
+ <SubTexture name="ovelha_0" x="0" y="0" width="113" height="90"/>
+</TextureAtlas>

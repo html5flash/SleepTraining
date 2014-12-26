@@ -1,0 +1,27 @@
+<TextureAtlas name="Untitled-5" imagePath="texture.png">
+ <SubTexture name="cobertor" x="323" y="272" width="272" height="44"/>
+ <SubTexture name="LOBAO/braço_esq17" x="937" y="114" width="77" height="107"/>
+ <SubTexture name="LOBAO/braço_esq18" x="853" y="165" width="83" height="63"/>
+ <SubTexture name="LOBAO/braço_esq15" x="937" y="0" width="76" height="113"/>
+ <SubTexture name="LOBAO/braço_esq14" x="362" y="157" width="84" height="98"/>
+ <SubTexture name="BocaLobao8" x="0" y="0" width="180" height="156"/>
+ <SubTexture name="BocaLobao6" x="362" y="0" width="180" height="156"/>
+ <SubTexture name="BocaLobao5" x="181" y="0" width="180" height="156"/>
+ <SubTexture name="BocaLobao4" x="543" y="109" width="166" height="162"/>
+ <SubTexture name="BocaLobao3" x="0" y="157" width="168" height="154"/>
+ <SubTexture name="BocaLobao7" x="169" y="157" width="153" height="165"/>
+ <SubTexture name="BocaLobao2" x="770" y="0" width="166" height="164"/>
+ <SubTexture name="LOBAO/OLHO_LOBAO11" x="710" y="226" width="38" height="38"/>
+ <SubTexture name="LOBAO/OLHO_LOBAO14" x="710" y="148" width="38" height="38"/>
+ <SubTexture name="LOBAO/OLHO_LOBAO15" x="323" y="157" width="38" height="38"/>
+ <SubTexture name="LOBAO/OLHO_LOBAO10" x="853" y="229" width="38" height="38"/>
+ <SubTexture name="LOBAO/OLHO_LOBAO3" x="710" y="109" width="39" height="38"/>
+ <SubTexture name="LOBAO/OLHO_LOBAO" x="710" y="187" width="38" height="38"/>
+ <SubTexture name="LOBAO/OLHO_LOBAO2" x="323" y="196" width="38" height="38"/>
+ <SubTexture name="LOBAO/SOBRANCELHA_LOBAO" x="892" y="229" width="35" height="23"/>
+ <SubTexture name="LOBAO/CABEÇA_LOBAO" x="447" y="157" width="79" height="94"/>
+ <SubTexture name="LOBAO/ORELHA_LOBAO2" x="749" y="165" width="103" height="73"/>
+ <SubTexture name="LOBAO/ORELHA_LOBAO1" x="937" y="222" width="70" height="65"/>
+ <SubTexture name="LOBAO/PESCOÇO_LOBAO" x="750" y="109" width="17" height="52"/>
+ <SubTexture name="travesseiro" x="543" y="0" width="226" height="108"/>
+</TextureAtlas>

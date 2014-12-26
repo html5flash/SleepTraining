@@ -1,0 +1,8 @@
+<TextureAtlas name="Untitled-1" imagePath="texture.png">
+ <SubTexture name="play3" x="321" y="0" width="118" height="72"/>
+ <SubTexture name="play2" x="321" y="73" width="111" height="80"/>
+ <SubTexture name="play1" x="294" y="154" width="108" height="82"/>
+ <SubTexture name="vessero3" x="0" y="0" width="320" height="152"/>
+ <SubTexture name="vessero2" x="0" y="301" width="297" height="132"/>
+ <SubTexture name="vessero1" x="0" y="153" width="293" height="147"/>
+</TextureAtlas>

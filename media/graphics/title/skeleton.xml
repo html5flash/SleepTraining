@@ -1,0 +1,128 @@
+<dragonBones name="Untitled-2" frameRate="30" version="2.3">
+ <armature name="titulo_mov">
+  <bone name="Layer 1">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 2">
+   <transform x="8" y="-14.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 3">
+   <transform x="-289.65" y="-106.35" skX="15" skY="-165" scX="1.04" scY="1.04"/>
+  </bone>
+  <bone name="ovelhaTI1">
+   <transform x="294.35" y="-89.9" skX="0" skY="0" scX="0.45" scY="0.45"/>
+  </bone>
+  <bone name="ovelhaTI0">
+   <transform x="284.85" y="100.85" skX="-15" skY="-15" scX="1.04" scY="1.04"/>
+  </bone>
+  <bone name="ovelhaTI">
+   <transform x="-319.3" y="147.95" skX="15" skY="-165" scX="0.69" scY="0.69"/>
+  </bone>
+  <skin name="">
+   <slot name="ovelhaTI" parent="ovelhaTI" z="0">
+    <display name="ovelhaTI" type="image">
+     <transform x="0.099" y="0" skX="0" skY="0" scX="1" scY="1" pX="58.95" pY="57.5"/>
+    </display>
+   </slot>
+   <slot name="ovelhaTI0" parent="ovelhaTI0" z="1">
+    <display name="ovelhaTI" type="image">
+     <transform x="0.049" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="58.95" pY="57.5"/>
+    </display>
+   </slot>
+   <slot name="ovelhaTI1" parent="ovelhaTI1" z="2">
+    <display name="ovelhaTI" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="58.95" pY="57.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 3" parent="Layer 3" z="3">
+    <display name="ovelhaTI" type="image">
+     <transform x="0.049" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="58.95" pY="57.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 2" parent="Layer 2" z="4">
+    <display name="nuvem_TI" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="209.85" pY="128.3"/>
+    </display>
+   </slot>
+   <slot name="Layer 1" parent="Layer 1" z="5">
+    <display name="titulo" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="152.15" pY="87"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="titulo" fadeInTime="0" duration="115" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="ovelhaTI" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="57">
+     <transform x="-319.3" y="147.95" skX="15" skY="-165" scX="0.69" scY="0.69" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="57">
+     <transform x="-319.3" y="109.95" skX="15" skY="-165" scX="0.69" scY="0.69" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="-319.3" y="147.95" skX="15" skY="-165" scX="0.69" scY="0.69" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ovelhaTI0" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="57">
+     <transform x="284.85" y="100.85" skX="-15" skY="-15" scX="1.04" scY="1.04" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="57">
+     <transform x="284.85" y="36.9" skX="-15" skY="-15" scX="1.04" scY="1.04" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="284.85" y="100.85" skX="-15" skY="-15" scX="1.04" scY="1.04" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ovelhaTI1" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="57">
+     <transform x="294.35" y="-89.9" skX="0" skY="0" scX="0.45" scY="0.45" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="57">
+     <transform x="294.35" y="-135.9" skX="0" skY="0" scX="0.45" scY="0.45" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="294.35" y="-89.9" skX="0" skY="0" scX="0.45" scY="0.45" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 3" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="57">
+     <transform x="-289.65" y="-106.35" skX="15" skY="-165" scX="1.04" scY="1.04" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="57">
+     <transform x="-289.65" y="-130.35" skX="15" skY="-165" scX="1.04" scY="1.04" pX="0" pY="-0.05"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-289.65" y="-106.35" skX="15" skY="-165" scX="1.04" scY="1.04" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 2" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="51">
+     <transform x="8" y="-14.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="12">
+     <transform x="8" y="-14.7" skX="0" skY="0" scX="1.05" scY="1.05" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="51">
+     <transform x="8" y="-14.7" skX="0" skY="0" scX="1.05" scY="1.05" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="8" y="-14.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 1" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="51">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="12">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.09" scY="1.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="51">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.09" scY="1.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

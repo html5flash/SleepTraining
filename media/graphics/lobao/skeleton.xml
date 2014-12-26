@@ -1,0 +1,1183 @@
+<dragonBones name="Untitled-5" frameRate="30" version="2.3">
+ <armature name="cabeca_lobao_sono">
+  <bone name="Layer 5">
+   <transform x="-14.8" y="79.9" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="Layer 4">
+   <transform x="-29.95" y="71.15" skX="137.56" skY="-42.44" scX="1.06" scY="0.91"/>
+  </bone>
+  <bone name="Layer 3">
+   <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88"/>
+  </bone>
+  <bone name="SOBRANCELHA_LOBAO0">
+   <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48"/>
+  </bone>
+  <bone name="OLHO_LOBAO0">
+   <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77"/>
+  </bone>
+  <bone name="BOCA_LOBAO_sono">
+   <transform x="21.9" y="-1.7" skX="17.24" skY="17.24" scX="1" scY="1"/>
+  </bone>
+  <bone name="OLHO_LOBAO">
+   <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77"/>
+  </bone>
+  <bone name="SOBRANCELHA_LOBAO">
+   <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47"/>
+  </bone>
+  <bone name="CABEÇA_LOBAO">
+   <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66"/>
+  </bone>
+  <bone name="ORELHA_LOBAO0">
+   <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54"/>
+  </bone>
+  <bone name="ORELHA_LOBAO">
+   <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57"/>
+  </bone>
+  <bone name="PESCOÇO_LOBAO">
+   <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51"/>
+  </bone>
+  <bone name="Layer 6">
+   <transform x="-17.25" y="23.25" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="Layer 6" parent="Layer 6" z="0">
+    <display name="travesseiro" type="image">
+     <transform x="0.049" y="0" skX="0" skY="0" scX="1" scY="1" pX="112.65" pY="53.65"/>
+    </display>
+   </slot>
+   <slot name="PESCOÇO_LOBAO" parent="PESCOÇO_LOBAO" z="1">
+    <display name="LOBAO/PESCOÇO_LOBAO" type="image">
+     <transform x="-0.3" y="-24.15" skX="0" skY="0" scX="1" scY="1" pX="4.1" pY="30.45"/>
+    </display>
+   </slot>
+   <slot name="ORELHA_LOBAO" parent="ORELHA_LOBAO" z="2">
+    <display name="LOBAO/ORELHA_LOBAO1" type="image">
+     <transform x="25.349" y="-14" skX="0" skY="0" scX="1" scY="1" pX="33.75" pY="33.9"/>
+    </display>
+    <display name="LOBAO/ORELHA_LOBAO2" type="image">
+     <transform x="25.349" y="-14" skX="0" skY="0" scX="1" scY="1" pX="33.75" pY="43.55"/>
+    </display>
+   </slot>
+   <slot name="ORELHA_LOBAO0" parent="ORELHA_LOBAO0" z="3">
+    <display name="LOBAO/ORELHA_LOBAO1" type="image">
+     <transform x="28.899" y="-18.15" skX="0" skY="0" scX="1" scY="1" pX="33.75" pY="33.9"/>
+    </display>
+    <display name="LOBAO/ORELHA_LOBAO2" type="image">
+     <transform x="28.899" y="-18.15" skX="0" skY="0" scX="1" scY="1" pX="33.75" pY="43.55"/>
+    </display>
+   </slot>
+   <slot name="CABEÇA_LOBAO" parent="CABEÇA_LOBAO" z="4">
+    <display name="LOBAO/CABEÇA_LOBAO" type="image">
+     <transform x="-16.5" y="-50.35" skX="0" skY="0" scX="1" scY="1" pX="39" pY="40.8"/>
+    </display>
+   </slot>
+   <slot name="SOBRANCELHA_LOBAO" parent="SOBRANCELHA_LOBAO" z="5">
+    <display name="LOBAO/SOBRANCELHA_LOBAO" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.15" pY="11.2"/>
+    </display>
+   </slot>
+   <slot name="OLHO_LOBAO" parent="OLHO_LOBAO" z="6">
+    <display name="LOBAO/OLHO_LOBAO2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="19.5" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.95"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO11" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+   </slot>
+   <slot name="BOCA_LOBAO_sono" parent="BOCA_LOBAO_sono" z="7">
+    <display name="BocaLobao2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="82.7" pY="81.6"/>
+    </display>
+    <display name="BocaLobao7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="83.8" pY="87.9"/>
+    </display>
+    <display name="BocaLobao3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="83.8" pY="76.6"/>
+    </display>
+    <display name="BocaLobao4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="82.2" pY="82.9"/>
+    </display>
+    <display name="BocaLobao5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="82.2" pY="79.4"/>
+    </display>
+    <display name="BocaLobao6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="81.85" pY="79.4"/>
+    </display>
+    <display name="BocaLobao8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="82.2" pY="79.4"/>
+    </display>
+   </slot>
+   <slot name="OLHO_LOBAO0" parent="OLHO_LOBAO0" z="8">
+    <display name="LOBAO/OLHO_LOBAO2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="19.5" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.95"/>
+    </display>
+    <display name="LOBAO/OLHO_LOBAO15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="18.6" pY="18.85"/>
+    </display>
+   </slot>
+   <slot name="SOBRANCELHA_LOBAO0" parent="SOBRANCELHA_LOBAO0" z="9">
+    <display name="LOBAO/SOBRANCELHA_LOBAO" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.15" pY="11.2"/>
+    </display>
+   </slot>
+   <slot name="Layer 3" parent="Layer 3" z="10">
+    <display name="LOBAO/braço_esq14" type="image">
+     <transform x="-8.15" y="47.349" skX="0" skY="0" scX="1" scY="1" pX="45.35" pY="53.35"/>
+    </display>
+    <display name="LOBAO/braço_esq15" type="image">
+     <transform x="-8.15" y="47.349" skX="0" skY="0" scX="1" scY="1" pX="45.35" pY="53.35"/>
+    </display>
+    <display name="LOBAO/braço_esq18" type="image">
+     <transform x="-8.2" y="47.349" skX="0" skY="0" scX="1" scY="1" pX="24.85" pY="59.8"/>
+    </display>
+   </slot>
+   <slot name="Layer 4" parent="Layer 4" z="11">
+    <display name="LOBAO/braço_esq17" type="image">
+     <transform x="-8.3" y="47.249" skX="0" skY="0" scX="1" scY="1" pX="54.6" pY="53.75"/>
+    </display>
+   </slot>
+   <slot name="Layer 5" parent="Layer 5" z="12">
+    <display name="cobertor" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="135.55" pY="22"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="inicio" fadeInTime="0" duration="90" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="Layer 6" scale="1" offset="0">
+    <frame z="0" duration="90">
+     <transform x="-17.25" y="23.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="PESCOÇO_LOBAO" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="28">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="59">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="28">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="1" tweenEasing="0" duration="59">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO0" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="28">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="1" tweenEasing="0" duration="59">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.65" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="CABEÇA_LOBAO" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="28">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="59">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="28">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="59">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.99" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO" scale="1" offset="0">
+    <frame z="6" tweenEasing="0" duration="28">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="1">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="1" tweenEasing="0" duration="59">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="26.65" y="-0.4" skX="-53.35" skY="126.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="BOCA_LOBAO_sono" scale="1" offset="0">
+    <frame z="7" tweenEasing="0" duration="28">
+     <transform x="21.9" y="-1.7" skX="17.24" skY="17.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="21.9" y="-1.7" skX="17.24" skY="17.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="1" tweenEasing="0" duration="59">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO0" scale="1" offset="0">
+    <frame z="8" tweenEasing="0" duration="28">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="59">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO0" scale="1" offset="0">
+    <frame z="9" tweenEasing="0" duration="28">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="59">
+     <transform x="-30.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-30.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 3" scale="1" offset="0">
+    <frame z="10" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="1" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="1" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="1" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="1" tweenEasing="0" duration="3">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="5">
+     <transform x="41.3" y="58.85" skX="-112.35" skY="-112.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="5">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="5">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="62.55" y="50.9" skX="-46.34" skY="-46.33" scX="1" scY="0.88" pX="-0.05" pY="0"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 4" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="11" tweenEasing="0" duration="20">
+     <transform x="-29.95" y="71.15" skX="137.56" skY="-42.44" scX="1.06" scY="0.91" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="20">
+     <transform x="-46.4" y="63.4" skX="-172.66" skY="7.34" scX="1.1" scY="0.95" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="6">
+     <transform x="-46.4" y="63.4" skX="-172.66" skY="7.34" scX="1.1" scY="0.95" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="7">
+     <transform x="-29.95" y="71.15" skX="162.31" skY="-17.7" scX="1.06" scY="0.91" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="7">
+     <transform x="-29.95" y="71.15" skX="137.56" skY="-42.44" scX="1.06" scY="0.91" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="1">
+     <transform x="-18.75" y="79.55" skX="124.32" skY="-55.68" scX="1.06" scY="0.91" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 5" scale="1" offset="0">
+    <frame z="12" duration="90">
+     <transform x="-14.8" y="79.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="dormindo" fadeInTime="0" duration="47" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="Layer 6" scale="1" offset="0">
+    <frame z="0" duration="153">
+     <transform x="-17.25" y="23.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="PESCOÇO_LOBAO" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="46">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="22">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="24">
+     <transform x="-20.6" y="-32.8" skX="-78.72" skY="-77.92" scX="0.6" scY="0.57" pX="0.2" pY="-0.1"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO0" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="22">
+     <transform x="-29.45" y="-22.3" skX="-23.65" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="24">
+     <transform x="-43.65" y="-20.3" skX="-35.15" skY="144.61" scX="0.56" scY="0.54" pX="0.1" pY="0.05"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="CABEÇA_LOBAO" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="22">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="24">
+     <transform x="-22.5" y="14.2" skX="-28.85" skY="151.16" scX="0.91" scY="0.66" pX="0" pY="-0.05"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="22">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.99" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="24">
+     <transform x="-2.5" y="-41.5" skX="-44.25" skY="-44.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO" scale="1" offset="0">
+    <frame z="6" displayIndex="2" tweenEasing="0" duration="22">
+     <transform x="26.65" y="-0.4" skX="-53.35" skY="126.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="2" tweenEasing="0" duration="24">
+     <transform x="10.95" y="-29.45" skX="-30.9" skY="149.1" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="18.3" y="-1.05" skX="-53.35" skY="126.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="BOCA_LOBAO_sono" scale="1" offset="0">
+    <frame z="7" displayIndex="2" tweenEasing="0" duration="22">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="24">
+     <transform x="11.35" y="-16.6" skX="-3.21" skY="-3.21" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO0" scale="1" offset="0">
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="22">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="24">
+     <transform x="-17.35" y="-9.9" skX="-30.88" skY="149.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO0" scale="1" offset="0">
+    <frame z="9" tweenEasing="0" duration="22">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="24">
+     <transform x="-34.75" y="-27.8" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 5" scale="1" offset="0">
+    <frame z="12" duration="153">
+     <transform x="-14.8" y="79.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="lobao_acordando" fadeInTime="0" duration="61" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="Layer 6" scale="1" offset="0">
+    <frame z="0" duration="106">
+     <transform x="-17.25" y="23.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="PESCOÇO_LOBAO" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="6">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="6">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="4">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="9">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="6">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="6">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="4">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="9">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO0" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="6">
+     <transform x="-30.9" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0.05" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="6">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="5">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="5">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="5">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="5">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="4">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="9">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="CABEÇA_LOBAO" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="6">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="6">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="4">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="9">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="6">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="6">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="14" y="-27" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="14" y="-27" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="14" y="-27" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="4">
+     <transform x="14" y="-27" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="9">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO" scale="1" offset="0">
+    <frame z="6" displayIndex="1" tweenEasing="0" duration="6">
+     <transform x="20.3" y="-1.05" skX="-53.35" skY="126.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="3" tweenEasing="0" duration="6">
+     <transform x="19.5" y="-5.7" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="21.5" y="-5.7" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="5" tweenEasing="0" duration="5">
+     <transform x="21.45" y="-5.95" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="21.5" y="-5.7" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="2" tweenEasing="0" duration="5">
+     <transform x="21.45" y="-5.95" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="21.5" y="-5.7" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="5" tweenEasing="0" duration="5">
+     <transform x="21.45" y="-5.95" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="21.5" y="-5.7" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="5" tweenEasing="0" duration="4">
+     <transform x="21.45" y="-5.95" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="2" tweenEasing="0" duration="9">
+     <transform x="21.5" y="-5.7" skX="-8.35" skY="171.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="20.3" y="-1.05" skX="-53.35" skY="126.64" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="BOCA_LOBAO_sono" scale="1" offset="0">
+    <frame z="7" displayIndex="2" tweenEasing="0" duration="6">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="3" tweenEasing="0" duration="6">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="5" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="5" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="5" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="5" tweenEasing="0" duration="4">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="4" tweenEasing="0" duration="9">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO0" scale="1" offset="0">
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="6">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="2" tweenEasing="0" duration="6">
+     <transform x="-11.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="3" tweenEasing="0" duration="5">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="3" tweenEasing="0" duration="5">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="5">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="4">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="9">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="-9.1" y="-0.4" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO0" scale="1" offset="0">
+    <frame z="9" tweenEasing="0" duration="6">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="6">
+     <transform x="-24.25" y="-25.2" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-24.25" y="-25.2" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-20.75" y="-20.7" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-24.25" y="-25.2" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-20.75" y="-20.7" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-24.25" y="-25.2" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-20.75" y="-20.7" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-24.25" y="-25.2" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="4">
+     <transform x="-20.75" y="-20.7" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="9">
+     <transform x="-24.25" y="-25.2" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 5" scale="1" offset="0">
+    <frame z="12" duration="106">
+     <transform x="-14.8" y="79.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="acordando_zoado" fadeInTime="0" duration="17" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="Layer 6" scale="1" offset="0">
+    <frame z="0" duration="45">
+     <transform x="-17.25" y="23.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="PESCOÇO_LOBAO" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="8">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="8">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="8">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="8">
+     <transform x="-9.3" y="-27.05" skX="-33.47" skY="-32.67" scX="0.6" scY="0.57" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO0" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="8">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="8">
+     <transform x="-32.45" y="-14.6" skX="-19.9" skY="159.85" scX="0.56" scY="0.54" pX="-0.05" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="CABEÇA_LOBAO" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="8">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="8">
+     <transform x="-11" y="23.75" skX="-30.09" skY="149.92" scX="0.91" scY="0.66" pX="-0.05" pY="0.05"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="8">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="8">
+     <transform x="7.85" y="-23.55" skX="-25.49" skY="-26.23" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO" scale="1" offset="0">
+    <frame z="6" displayIndex="6" tweenEasing="0" duration="8">
+     <transform x="17.1" y="-4.25" skX="6.65" skY="-173.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="6" tweenEasing="0" duration="8">
+     <transform x="16.7" y="-6" skX="-4.6" skY="175.4" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="6" tweenEasing="0" duration="1">
+     <transform x="17.1" y="-4.25" skX="6.65" skY="-173.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="BOCA_LOBAO_sono" scale="1" offset="0">
+    <frame z="7" displayIndex="6" tweenEasing="0" duration="8">
+     <transform x="21.9" y="-1.7" skX="17.24" skY="17.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="6" tweenEasing="0" duration="8">
+     <transform x="21.95" y="-4.4" skX="6" skY="6" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="6" tweenEasing="0" duration="1">
+     <transform x="21.9" y="-1.7" skX="17.24" skY="17.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO0" scale="1" offset="0">
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="8">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="8">
+     <transform x="-11.55" y="4.45" skX="-12.13" skY="167.88" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="4" tweenEasing="0" duration="1">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO0" scale="1" offset="0">
+    <frame z="9" tweenEasing="0" duration="8">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="8">
+     <transform x="-21.45" y="-21.45" skX="-6.3" skY="173.71" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 5" scale="1" offset="0">
+    <frame z="12" duration="45">
+     <transform x="-14.8" y="79.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="acordando_bem" fadeInTime="0" duration="28" scale="1" loop="1" tweenEasing="NaN">
+   <timeline name="Layer 6" scale="1" offset="0">
+    <frame z="0" duration="28">
+     <transform x="-17.25" y="23.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="PESCOÇO_LOBAO" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="21">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-8.1" y="69.25" skX="14.55" skY="-178.51" scX="0.95" scY="0.51" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="1" tweenEasing="0" duration="21">
+     <transform x="-4.3" y="-30" skX="-82.23" skY="-81.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-4.3" y="-30" skX="-82.23" skY="-81.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-4.35" y="-30" skX="-67.23" skY="-66.43" scX="0.6" scY="0.57" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="ORELHA_LOBAO0" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="1" tweenEasing="0" duration="21">
+     <transform x="-29.4" y="-22.25" skX="6.34" skY="-173.9" scX="0.56" scY="0.54" pX="0.1" pY="-0.05"/>
+    </frame>
+    <frame z="3" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-29.4" y="-22.25" skX="6.34" skY="-173.9" scX="0.56" scY="0.54" pX="0.1" pY="-0.05"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-29.45" y="-22.3" skX="-23.66" skY="156.1" scX="0.56" scY="0.54" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="CABEÇA_LOBAO" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="21">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-15.9" y="19.55" skX="-18.84" skY="161.16" scX="0.91" scY="0.66" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="21">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="9.15" y="-31.2" skX="-14.25" skY="-14.98" scX="0.49" scY="0.47" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO" scale="1" offset="0">
+    <frame z="6" tweenEasing="0" duration="1">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="1" tweenEasing="0" duration="21">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="1">
+     <transform x="17.1" y="-4.25" skX="21.64" skY="-158.36" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="BOCA_LOBAO_sono" scale="1" offset="0">
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="21.9" y="-1.7" skX="17.24" skY="17.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="1" tweenEasing="0" duration="21">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="17.5" y="-5.7" skX="2.24" skY="2.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="21.9" y="-1.7" skX="17.24" skY="17.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="OLHO_LOBAO0" scale="1" offset="0">
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="21">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" displayIndex="1" tweenEasing="0" duration="5">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="-12.7" y="0.45" skX="-0.88" skY="179.12" scX="0.8" scY="0.77" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="SOBRANCELHA_LOBAO0" scale="1" offset="0">
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="21">
+     <transform x="-30.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="5">
+     <transform x="-30.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="-24.95" y="-23.05" skX="-25.06" skY="154.96" scX="0.56" scY="0.48" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="Layer 3" scale="1" offset="0">
+    <frame duration="1" displayIndex="-1"/>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="5">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="3">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="4">
+     <transform x="45.65" y="54.3" skX="-127.35" skY="-127.35" scX="1" scY="0.88" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="5">
+     <transform x="41.25" y="58.85" skX="-142.35" skY="-142.35" scX="1" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="62.55" y="50.9" skX="-46.34" skY="-46.33" scX="1" scY="0.88" pX="-0.05" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 4" scale="1" offset="0">
+    <frame z="11" tweenEasing="0" duration="5">
+     <transform x="-29.95" y="71.15" skX="137.56" skY="-42.44" scX="1.06" scY="0.91" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="5">
+     <transform x="-46.4" y="63.4" skX="-172.66" skY="7.34" scX="1.1" scY="0.95" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="3">
+     <transform x="-46.4" y="63.4" skX="-172.66" skY="7.34" scX="1.1" scY="0.95" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="4">
+     <transform x="-29.95" y="71.15" skX="162.31" skY="-17.7" scX="1.06" scY="0.91" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="5">
+     <transform x="-29.95" y="71.15" skX="137.56" skY="-42.44" scX="1.06" scY="0.91" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="1">
+     <transform x="-18.75" y="79.55" skX="124.32" skY="-55.68" scX="1.06" scY="0.91" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 5" scale="1" offset="0">
+    <frame z="12" duration="28">
+     <transform x="-14.8" y="79.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

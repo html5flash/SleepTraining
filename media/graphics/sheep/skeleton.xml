@@ -1,0 +1,195 @@
+<dragonBones name="Untitled-8" frameRate="30" version="2.3">
+ <armature name="ovelha">
+  <bone name="asa1">
+   <transform x="-21.9" y="-41.55" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="asa2">
+   <transform x="7.7" y="-42.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="patas">
+   <transform x="8.05" y="48.8" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="ovelha">
+   <transform x="-2.7" y="7.85" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="">
+   <slot name="ovelha" parent="ovelha" z="0">
+    <display name="ovelha_0" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="56.25" pY="44.85"/>
+    </display>
+   </slot>
+   <slot name="patas" parent="patas" z="1">
+    <display name="patas1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34.7" pY="11.1"/>
+    </display>
+    <display name="patas2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34.9" pY="11.15"/>
+    </display>
+    <display name="patas3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34.25" pY="11.15"/>
+    </display>
+    <display name="patas4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="35.3" pY="11.3"/>
+    </display>
+    <display name="patas5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="36.35" pY="11.4"/>
+    </display>
+    <display name="patas7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="35.95" pY="11.3"/>
+    </display>
+   </slot>
+   <slot name="asa2" parent="asa2" z="2">
+    <display name="asa1_1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="10.55" pY="14.8"/>
+    </display>
+    <display name="sasa2_2" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="10.45" pY="13.65"/>
+    </display>
+    <display name="asa3_3" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="10.5" pY="13"/>
+    </display>
+    <display name="asa4_4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="10.2" pY="11.65"/>
+    </display>
+    <display name="asa5_5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="9.55" pY="8.25"/>
+    </display>
+    <display name="asa6_6" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="14.75" pY="4.95"/>
+    </display>
+    <display name="asa7_7" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="13.2" pY="6.15"/>
+    </display>
+    <display name="asa8_8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="13.05" pY="7.5"/>
+    </display>
+    <display name="asa9_9" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="10.45" pY="13.65"/>
+    </display>
+   </slot>
+   <slot name="asa1" parent="asa1" z="3">
+    <display name="asa1" type="image">
+     <transform x="0.049" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="10.6" pY="14.8"/>
+    </display>
+    <display name="asa2" type="image">
+     <transform x="0.049" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="10.5" pY="13.65"/>
+    </display>
+    <display name="asa3" type="image">
+     <transform x="0.049" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="10.55" pY="13"/>
+    </display>
+    <display name="asa4" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="10.2" pY="11.7"/>
+    </display>
+    <display name="asa5" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="9.55" pY="8.3"/>
+    </display>
+    <display name="asa6" type="image">
+     <transform x="0.049" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="14.8" pY="4.95"/>
+    </display>
+    <display name="asa7" type="image">
+     <transform x="0" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="13.25" pY="6.15"/>
+    </display>
+    <display name="asa8" type="image">
+     <transform x="0.049" y="0.049" skX="0" skY="0" scX="1" scY="1" pX="13.1" pY="7.55"/>
+    </display>
+    <display name="asa9" type="image">
+     <transform x="0.049" y="0" skX="0" skY="0" scX="1" scY="1" pX="10.5" pY="13.65"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ovelha" fadeInTime="0" duration="28" scale="1" loop="0" tweenEasing="NaN">
+   <timeline name="ovelha" scale="1" offset="0">
+    <frame z="0" duration="28">
+     <transform x="-2.7" y="7.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="patas" scale="1" offset="0">
+    <frame z="1" duration="4">
+     <transform x="8.05" y="48.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="4">
+     <transform x="8.15" y="48.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="2" duration="5">
+     <transform x="8.05" y="48.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="3" duration="5">
+     <transform x="8.1" y="48.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="4" duration="5">
+     <transform x="8.1" y="48.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="5" duration="4">
+     <transform x="8.1" y="48.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="8.05" y="48.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="asa2" scale="1" offset="0">
+    <frame z="2" duration="3">
+     <transform x="7.7" y="-42.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="1" duration="3">
+     <transform x="8.4" y="-41.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="2" duration="3">
+     <transform x="7.7" y="-40.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="3" duration="3">
+     <transform x="7.45" y="-39.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="4" duration="3">
+     <transform x="7.1" y="-35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="5" duration="3">
+     <transform x="12.05" y="-31.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="6" duration="3">
+     <transform x="10.4" y="-33.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="7" duration="3">
+     <transform x="10.15" y="-34.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" displayIndex="8" duration="3">
+     <transform x="8.4" y="-41.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="7.7" y="-42.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="asa1" scale="1" offset="0">
+    <frame z="3" duration="3">
+     <transform x="-21.9" y="-41.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="1" duration="3">
+     <transform x="-22.6" y="-40.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="2" duration="3">
+     <transform x="-21.9" y="-39.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="3" duration="3">
+     <transform x="-21.6" y="-38.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="4" duration="3">
+     <transform x="-21.25" y="-33.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="5" duration="3">
+     <transform x="-26.2" y="-30.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="6" duration="3">
+     <transform x="-24.55" y="-32.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="7" duration="3">
+     <transform x="-24.35" y="-33.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" displayIndex="8" duration="3">
+     <transform x="-22.6" y="-40.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-21.9" y="-41.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

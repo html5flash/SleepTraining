@@ -1,0 +1,5 @@
+<TextureAtlas name="Untitled-2" imagePath="texture.png">
+ <SubTexture name="titulo" x="0" y="335" width="300" height="183"/>
+ <SubTexture name="nuvem_TI" x="0" y="0" width="417" height="334"/>
+ <SubTexture name="ovelhaTI" x="301" y="335" width="113" height="118"/>
+</TextureAtlas>

@@ -25,6 +25,10 @@ package utils
 				return true;
 		}
 		
+		public static function randomSort(value:Array):Array {
+			return value.sort(customSort);
+		}
+		
 		private function generateRandomNumber():void {
 			/*var obj:Object = new Object();
 			obj.numLeft = Math.abs(Math.random()*maxNum - minNum);

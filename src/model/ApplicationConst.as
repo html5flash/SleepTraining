@@ -2,7 +2,7 @@ package model
 {
 	public class ApplicationConst
 	{
-		public static const GAME_TIME:Number = 600;
+		public static const GAME_TIME:Number = 60;
 		public static const MAX_LIMIT:Number = 15;
 		public static const OPTION_COUNT:Number = 6;
 		public static const OPTION_FADE_IN_TIME:Number = 1;

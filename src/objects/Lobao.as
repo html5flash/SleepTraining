@@ -10,6 +10,8 @@ package objects
 	import dragonBones.textures.StarlingTextureAtlas;
 	import dragonBones.utils.parseOldXMLData;
 	
+	import model.ApplicationConst;
+	
 	import starling.core.Starling;
 	import starling.display.Image;
 	import starling.display.MovieClip;
@@ -46,10 +48,10 @@ package objects
 			armature.display.x = 389;
 			armature.display.y = 238;
 			this.addChild(armature.display as Sprite);
-			armature.addEventListener(AnimationEvent.COMPLETE, animationCompleteHandler);
+			//armature.addEventListener(AnimationEvent.COMPLETE, animationCompleteHandler);
 			//armature.animation.gotoAndPlay("inicio");//begin
 			//armature.animation.gotoAndPlay("dormindo");//sleeping
-			armature.animation.gotoAndPlay("lobao_acordando");//lobao waking
+			//armature.animation.gotoAndPlay("lobao_acordando");//lobao waking
 			//armature.animation.gotoAndPlay("acordando_zoado");//waking messed up
 			//armature.animation.gotoAndPlay("acordando_bem");//waking up well
 			WorldClock.clock.add(armature);
@@ -57,8 +59,45 @@ package objects
 			addEventListener(EnterFrameEvent.ENTER_FRAME, onEnterFrameHandler);
 		}
 		
+		public function showCorrectAnimation(value:Boolean):void {
+			trace(armature.animation.movementID);
+			if(value == true) {
+				switch(armature.animation.movementID) {
+					//case ApplicationConst.LOBAO_SLEEPING:
+					case ApplicationConst.LOBAO_BEGIN:
+						armature.animation.gotoAndPlay(ApplicationConst.LOBAO_SLEEPING);
+						break;					
+					case ApplicationConst.LOBAO_WAKING:
+						armature.animation.gotoAndPlay(ApplicationConst.LOBAO_SLEEPING);
+						break;
+					case ApplicationConst.LOBAO_WAKING_MESSED_UP:
+						armature.animation.gotoAndPlay(ApplicationConst.LOBAO_WAKING);
+						break;
+					case ApplicationConst.LOBAO_WAKING_UP_WELL:
+						break;
+				}
+			} else {
+				switch(armature.animation.movementID) {
+					case ApplicationConst.LOBAO_SLEEPING:
+					case ApplicationConst.LOBAO_BEGIN:
+						armature.animation.gotoAndPlay(ApplicationConst.LOBAO_WAKING);
+						break;
+					case ApplicationConst.LOBAO_WAKING:
+						armature.animation.gotoAndPlay(ApplicationConst.LOBAO_WAKING_MESSED_UP);
+						break;
+					case ApplicationConst.LOBAO_WAKING_MESSED_UP:
+						armature.animation.gotoAndPlay(ApplicationConst.LOBAO_WAKING_MESSED_UP);
+						break;
+					case ApplicationConst.LOBAO_WAKING_UP_WELL:
+						armature.animation.gotoAndPlay(ApplicationConst.LOBAO_WAKING_MESSED_UP);
+						break;
+				}
+			}
+		}
+		
 		public function gotoAndPlay(name:String):void {
-			trace("armature.animation.movementID:" + armature.animation.movementID);
+			//trace("armature.animation.movementID:" + armature.animation.movementID);
+			armature.animation.gotoAndPlay(name);
 		}
 		
 		private function onEnterFrameHandler(evt:EnterFrameEvent):void
@@ -68,6 +107,7 @@ package objects
 		}
 		
 		private function animationCompleteHandler(event:AnimationEvent):void {
+			return;
 			switch(armature.animation.movementID) {
 				case "inicio":
 					armature.animation.gotoAndPlay("dormindo");

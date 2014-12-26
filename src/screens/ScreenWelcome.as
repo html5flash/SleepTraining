@@ -6,13 +6,18 @@ package screens
 	
 	import events.NavigationEvent;
 	
+	import model.ApplicationConst;
+	
 	import objects.PlayButton;
 	
+	import starling.display.DisplayObject;
 	import starling.display.Image;
 	import starling.display.Sprite;
 	import starling.events.EnterFrameEvent;
 	import starling.events.Event;
+	import starling.events.Touch;
 	import starling.events.TouchEvent;
+	import starling.events.TouchPhase;
 	
 	public class ScreenWelcome extends Sprite
 	{
@@ -32,6 +37,7 @@ package screens
 		}
 		
 		private function onAddedToStage(event:Event):void {
+			this.removeEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
 			trace("welcome screen initialized");
 			drawScreen();
 		}
@@ -55,8 +61,19 @@ package screens
 			this.addChild(btnPlay as Sprite);
 		}
 		
-		private function onPlay(event:TouchEvent):void {			
-			this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id:"welcome"},true));
+		private function onPlay(event:TouchEvent):void {
+			var touches:Vector.<Touch> = event.getTouches(this);
+			var clicked:DisplayObject = event.currentTarget as DisplayObject;
+			if ( touches.length == 1 )
+			{
+				var touch:Touch = touches[0];   
+				if ( touch.phase == TouchPhase.ENDED )
+				{
+					//trace ( e.currentTarget, e.target );
+					trace("onPlay============== ");
+					this.dispatchEvent(new NavigationEvent(NavigationEvent.CHANGE_SCREEN, {id:ApplicationConst.SCREEN_GAME},true));
+				}
+			}			
 		}
 		
 		public function initialize():void {
@@ -73,6 +90,6 @@ package screens
 		
 		public function disposeTemporarily():void {
 			this.visible = false;
-		}
+		}		
 	}
 }

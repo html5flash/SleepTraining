@@ -1,5 +1,6 @@
 package
 {
+	import flash.desktop.NativeApplication;
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageDisplayState;
@@ -30,13 +31,25 @@ package
 			stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
 			
 			addEventListener(flash.events.Event.ADDED_TO_STAGE, initializeGame);
+			NativeApplication.nativeApplication.addEventListener(flash.events.Event.DEACTIVATE, appDeactivateHandler);
+		}
+		
+		private function appDeactivateHandler(event:flash.events.Event):void {
+			//NativeApplication.nativeApplication.exit();
 		}
 		
 		private function initializeGame(event:flash.events.Event):void
 		{
 			removeEventListener(flash.events.Event.ADDED_TO_STAGE, initializeGame);
+			//stage.nativeWindow.addEventListener(flash.events.Event.CLOSING, onCloseCall);
+			
 			
 			initializeStarlingFramework();
+		}
+		
+		private function onCloseCall(event:flash.events.Event):void
+		{
+			//event.preventDefault();
 		}
 		
 		private function initializeStarlingFramework():void
@@ -57,7 +70,7 @@ package
 			_starling = new Starling(Game, stage, viewPort, null, "auto", "auto");
 			_starling.stage.stageWidth    = StageWidth;  // <- same size on all devices!
 			_starling.stage.stageHeight   = StageHeight; // <- same size on all devices!
-			_starling.enableErrorChecking = Capabilities.isDebugger;
+			//_starling.enableErrorChecking = Capabilities.isDebugger;
 			_starling.simulateMultitouch  = false;			
 			
 			_starling.addEventListener(starling.events.Event.ROOT_CREATED, function():void

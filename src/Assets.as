@@ -27,6 +27,18 @@ package
 		[Embed(source="../media/graphics/time.png")]
 		public static const Time:Class;
 		
+		[Embed(source="../media/graphics/play_again_button.png")]
+		public static const ReplayButton:Class;
+		
+		[Embed(source="../media/graphics/stars/star_full.png")]
+		public static const Star_Full:Class;
+		
+		[Embed(source="../media/graphics/stars/star_half.png")]
+		public static const Star_Half:Class;
+		
+		[Embed(source="../media/graphics/stars/star_none.png")]
+		public static const Star_None:Class;
+		
 		[Embed(source="../media/graphics/title/texture.png")]
 		public static const AtlasTextureTitle:Class;
 		
@@ -72,8 +84,83 @@ package
 		[Embed(source="../media/sounds/background.mp3")] 
 		public static const Sound_Background:Class; 
 		
+		[Embed(source="../media/sounds/hello_guys.mp3")] 
+		public static const Sound_Hello:Class;
+		
+		[Embed(source="../media/sounds/feedback_correct.mp3")] 
+		public static const Sound_Feedback_Correct:Class;
+		
+		[Embed(source="../media/sounds/feedback_incorrect.mp3")]
+		public static const Sound_Feedback_Incorrect:Class;
+		
+		[Embed(source="../media/sounds/chocking_snoring.mp3")]
+		public static const Sound_Chocking_Snoring:Class;
+		
+		[Embed(source="../media/sounds/deep_sleep.mp3")]
+		public static const Sound_Deep_Sleep:Class;
+		
+		[Embed(source="../media/sounds/long_yawn.mp3")]
+		public static const Sound_Long_Yawn:Class;
+		
+		[Embed(source="../media/sounds/scared.mp3")]
+		public static const Sound_Scared:Class;
+		
+		[Embed(source="../media/sounds/sleepy_voice.mp3")]
+		public static const Sound_Sleepy_Voice:Class;
+		
+		[Embed(source="../media/sounds/snore_whistle.mp3")]
+		public static const Sound_Snore_Whistle:Class;
+		
+		[Embed(source="../media/sounds/snoring_chocking_coughing.mp3")]
+		public static const Sound_Snoring_Chocking_Coughing:Class;
+		
+		[Embed(source="../media/sounds/waking_up_scared.mp3")]
+		public static const Sound_Waking_Up_Scared:Class;
+		
 		[Embed(source="../media/sounds/1.mp3")] 
 		public static const Sound_1:Class;
+		
+		[Embed(source="../media/sounds/2.mp3")] 
+		public static const Sound_2:Class;
+		
+		[Embed(source="../media/sounds/3.mp3")] 
+		public static const Sound_3:Class;
+		
+		[Embed(source="../media/sounds/4.mp3")] 
+		public static const Sound_4:Class;
+		
+		[Embed(source="../media/sounds/5.mp3")] 
+		public static const Sound_5:Class;
+		
+		[Embed(source="../media/sounds/6.mp3")] 
+		public static const Sound_6:Class;
+		
+		[Embed(source="../media/sounds/7.mp3")] 
+		public static const Sound_7:Class;
+		
+		[Embed(source="../media/sounds/8.mp3")] 
+		public static const Sound_8:Class;
+		
+		[Embed(source="../media/sounds/9.mp3")] 
+		public static const Sound_9:Class;
+		
+		[Embed(source="../media/sounds/10.mp3")] 
+		public static const Sound_10:Class;
+		
+		[Embed(source="../media/sounds/11.mp3")] 
+		public static const Sound_11:Class;
+		
+		[Embed(source="../media/sounds/12.mp3")] 
+		public static const Sound_12:Class;
+		
+		[Embed(source="../media/sounds/13.mp3")] 
+		public static const Sound_13:Class;
+		
+		[Embed(source="../media/sounds/14.mp3")] 
+		public static const Sound_14:Class;
+		
+		[Embed(source="../media/sounds/15.mp3")] 
+		public static const Sound_15:Class;
 		
 		public static var myFont:BitmapFont;
 		

@@ -5,6 +5,9 @@ package
 	import flash.events.Event;
 	import flash.media.Sound;
 	import flash.media.SoundChannel;
+	import flash.media.SoundTransform;
+	
+	import model.ApplicationConst;
 	
 	import screens.ScreenFeedback;
 	import screens.ScreenGame;
@@ -19,6 +22,7 @@ package
 		private var screenGame:ScreenGame;
 		private var screenFeedback:ScreenFeedback;
 		private var soundChannel:SoundChannel;
+		private var currentScreen:String = ApplicationConst.SCREEN_WELCOME;
 		public function Game()
 		{
 			super();
@@ -40,37 +44,51 @@ package
 			screenFeedback.disposeTemporarily();
 			this.addChild(screenFeedback);
 			
-			//screenWelcome.initialize();
-			screenGame.initialize();
-			//soundChannel.addEventListener(flash.events.Event.SOUND_COMPLETE, onSoundComplete);
+			screenWelcome.initialize();
+			//screenGame.initialize();
+			//soundChannel = new SoundChannel();
+			
 			
 			playBackgroundSound();
 		}
 		
 		private function playBackgroundSound():void {
-			var sound_1:Sound = new Assets.Sound_Background();
-			soundChannel = sound_1.play();
+			var backgroundSound:Sound = new Assets.Sound_Background();
+			var soundTransform:SoundTransform = new SoundTransform();
+			soundChannel = backgroundSound.play();
+			
+			if(currentScreen == ApplicationConst.SCREEN_GAME) {
+				soundTransform.volume = 0.05;
+				soundChannel.soundTransform = soundTransform;
+			}
+			soundChannel.addEventListener(flash.events.Event.SOUND_COMPLETE, onSoundComplete);
 		}
 		
 		private function onSoundComplete(event:flash.events.Event):void {
+			soundChannel.removeEventListener(flash.events.Event.SOUND_COMPLETE, onSoundComplete);
 			playBackgroundSound();
 		}
 		
 		private function changeScreenHandler(event:NavigationEvent):void {
-			switch(event.params.id) {
-				case "play":
+			currentScreen = event.params.id;
+			switch(currentScreen) {
+				case ApplicationConst.SCREEN_WELCOME:
+					setVolume(1);
 					screenGame.disposeTemporarily();
 					screenFeedback.disposeTemporarily();
-					screenWelcome.initialize();
+					screenWelcome.initialize();					
 					break;
 				
-				case "welcome":
+				case ApplicationConst.SCREEN_GAME:
+					setVolume(0.05);
 					screenWelcome.disposeTemporarily();
 					screenFeedback.disposeTemporarily();
 					screenGame.initialize();
 					break;
 				
-				case "feedback":
+				case ApplicationConst.SCREEN_FEEDBACK:
+					setVolume(1);
+					screenFeedback.score = screenGame.score;
 					screenWelcome.disposeTemporarily();
 					screenGame.disposeTemporarily();
 					screenFeedback.initialize();
@@ -78,6 +96,11 @@ package
 			}
 		}
 		
+		private function setVolume(value:Number):void {
+			var soundTransform:SoundTransform = new SoundTransform();
+			soundTransform.volume = value;
+			soundChannel.soundTransform = soundTransform;
+		}
 		
 	}
 }

@@ -4,15 +4,8 @@ package objects
 	import dragonBones.animation.WorldClock;
 	import dragonBones.events.AnimationEvent;
 	
-	import mx.core.ButtonAsset;
-	
-	import starling.core.Starling;
-	import starling.display.Button;
-	import starling.display.Image;
-	import starling.display.MovieClip;
 	import starling.display.Sprite;
 	import starling.events.Event;
-	import starling.textures.Texture;
 	
 	public class PlayButton extends Sprite
 	{
